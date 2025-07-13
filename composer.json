@@ -27,5 +27,7 @@
         "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
         "pragmarx/google2fa-laravel": "^2.0|^3.0",
         "simplesoftwareio/simple-qrcode": "^3.0|^4.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
