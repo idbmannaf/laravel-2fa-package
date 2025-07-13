@@ -1,6 +1,7 @@
 {
     "name": "mannaf/laravel-2fa",
     "description": "Laravel Two-Factor Authentication package supporting Laravel 7 to 12 and PHP 7.3 to 8.3",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,13 +12,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "mannaf\\Laravel2FA\\": "src/"
+            "Mannaf\\Laravel2FA\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "mannaf\\Laravel2FA\\TwoFactorServiceProvider"
+                "Mannaf\\Laravel2FA\\TwoFactorServiceProvider"
             ]
         }
     },
