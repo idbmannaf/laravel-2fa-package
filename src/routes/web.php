@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Mannaf\Laravel2FA\Controllers\TwoFactorController;
+use mannaf\Laravel2FA\Controllers\TwoFactorController;
 
 Route::middleware(['web', 'auth'])->group(function () {
     Route::get('/2fa/setup', [TwoFactorController::class, 'setup'])->name('twofactor.setup');
