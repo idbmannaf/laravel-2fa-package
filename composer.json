@@ -1,0 +1,30 @@
+{
+    "name": "Mannaf/laravel-2fa",
+    "description": "Laravel Two-Factor Authentication package supporting Laravel 7 to 12 and PHP 7.3 to 8.3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Mannaf",
+            "email": "idbmannaf@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mannaf\\Laravel2FA\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mannaf\\Laravel2FA\\TwoFactorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.3 <9.0",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "pragmarx/google2fa-laravel": "^2.0|^3.0",
+        "simplesoftwareio/simple-qrcode": "^3.0|^4.0"
+    }
+}
